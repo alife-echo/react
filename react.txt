@@ -1,0 +1,27 @@
+# -- COMO PENSAR EM REACT
+	
+ Informações estão na memoria, não espalhadas. -> JSON
+
+ Pense em termos de COMPONENTE -> Monte sua aplicação por componentes
+
+ Conceito de DRY(Don't Repeat Yourself) -> Não repita estruturas de codigo, crie componentes
+
+ Identifique ONDE os dados precisam estar
+
+ - Array de videos
+                 
+ -- Campo de busca
+ ---Lista de videos
+ ---Um video
+ 
+ Todos os 3 componentes precisam acessar o array de videos para manipulação e exibição
+
+ Fluxo de dados INVERSO
+
+ TEXTO DA BUSCA = oiac
+ Campo de busca OIAC
+ 
+ HTML,CSS,JS -> O valor é digitado no campo -> pegar o elemento digitado
+
+ REACT -> O valor e colocado na memoria , quando a memoria e atualizada -> O campo é atualizado
+
