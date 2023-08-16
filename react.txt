@@ -25,3 +25,19 @@
 
  REACT -> O valor e colocado na memoria , quando a memoria e atualizada -> O campo é atualizado
 
+
+
+# -- Iniciando um projeto com next
+
+npm i -g create-next-app --> instalar e atualizar sempre o next de maneira global
+
+npx create-next-app --> criar um projeto com next
+
+npm run dev --> rodar project com next
+
+
+# -- Iniciando um projeto com vite
+
+npm create vite --> criar um projeto com vite
+
+
