@@ -36,8 +36,35 @@ npx create-next-app --> criar um projeto com next
 npm run dev --> rodar project com next
 
 
+
+
 # -- Iniciando um projeto com vite
 
 npm create vite --> criar um projeto com vite
+
+
+
+# -- Exportando e Importando um Componente
+
+export default function Square () {} -> Exportando um componente por padrão, quer dizer que naquele arquivo, tudo ira se resumir ou convergir para aquele componente
+
+import Square from "@/components/Square" -> Importando um componente default, posso chamar o nome dele igual a função criada ou dar outro nome. apenas na importação
+
+
+export function Square () {} -> exportando um componente inidividual, quer dizer que naquele arquivo pode ter mais coisas,porem a que eu estou exportando é o square.
+
+import {Square} from '@/components/Square' -> Importando um componente individual, o nome precisa estar igual ao do componente criado é posso chamar mais coisas dentro daquele componente apenas adicionando no objeto criado do import
+
+
+-- Combinação de exportações
+ 
+Geo.tsx:
+export default function Square () {}
+export function Circle () {}
+
+import Square,{Circle} from '@/components/Square' --> chamando as duas funções do componente 
+import Square from '@/components/Square' --> chamando apenas o square
+
+
 
 
